@@ -8,10 +8,12 @@ import { CourseComponent } from './course/course.component';
 import { CoursesService } from './courses.service';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { FormsModule }   from '@angular/forms';
+import { SignupFormComponent } from './signup-form/signup-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    SignupFormComponent,
     CoursesComponent,
     CourseComponent,
     ContactFormComponent
